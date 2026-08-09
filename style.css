@@ -11,6 +11,17 @@ header {
   padding: 30px;
 }
 
+.demo {
+  background: #2563eb;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.demo:hover {
+  background: #1d4ed8;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -19,9 +30,13 @@ nav {
   padding: 10px;
 }
 
-nav a {
+a {
   text-decoration: none;
   color: black;
+}
+
+a:hover {
+  color:  #2563eb;
 }
 
 section {
